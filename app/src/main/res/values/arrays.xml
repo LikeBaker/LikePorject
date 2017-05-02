@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_item">
+        <item>rxjava</item>
+        <item>picasso</item>
+        <item>mp chart</item>
+        <item>like widget</item>
+        <item>greendao</item>
+        <item>chat</item>
+        <item>pulltorefresh</item>
+        <item>initApk</item>
+        <item>fontawesome</item>
+    </string-array>
+
+</resources>

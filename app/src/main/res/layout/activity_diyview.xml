@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="自定义控件" />
+
+    <com.like26th.likeproject.diyview.widget.DiyGroupView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:visibility="gone">
+
+        <!--此处顺序和getChild(int index)参数顺序一致-->
+        <include layout="@layout/include_diy_one"/>
+        <include layout="@layout/include_diy_two"/>
+    </com.like26th.likeproject.diyview.widget.DiyGroupView>
+
+    <com.like26th.likeproject.diyview.widget.likeAnimationProgressbar
+        android:id="@+id/likePorgressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:clipChildren="false">
+
+        <include layout="@layout/diy_progress_two"/>
+        <include layout="@layout/diy_progress_one"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.like26th.likeproject.diyview.widget.likeAnimationProgressbar>
+
+</RelativeLayout>

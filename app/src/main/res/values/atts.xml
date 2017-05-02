@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleLayout">
+        <attr name="top_title" format="string"/>
+        <attr name="title_size" format="dimension"/>
+        <attr name="title_color" format="color"/>
+        <attr name="left_bmg" format="reference|color"/>
+        <attr name="left_height" format="dimension"/>
+        <attr name="left_width" format="dimension"/>
+        <attr name="left_size" format="string"/>
+        <attr name="right_bmg" format="reference|color"/>
+        <attr name="right_height" format="dimension"/>
+        <attr name="right_width" format="dimension"/>
+        <attr name="right_size" format="string"/>
+        <attr name="left_text" format="string"/>
+        <attr name="left_textcolor" format="color"/>
+        <attr name="left_textsize" format="dimension"/>
+        <attr name="right_text" format="string"/>
+        <attr name="right_textcolor" format="color"/>
+        <attr name="right_textsize" format="dimension"/>
+    </declare-styleable>
+</resources>
